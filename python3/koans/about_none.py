@@ -7,6 +7,7 @@
 
 from runner.koan import *
 
+
 class AboutNone(Koan):
 
     def test_none_is_an_object(self):
@@ -21,9 +22,7 @@ class AboutNone(Koan):
         """
         What is the Exception that is thrown when you call a method that does
         not exist?
-
         Hint: launch python command console and try the code in the block below.
-
         Don't worry about what 'try' and 'except' do, we'll talk about this later
         """
         try:
